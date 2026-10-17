@@ -1,0 +1,74 @@
+# Local configuration and credentials (commit the template only)
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+/secrets/
+
+# Runtime state, original uploads and local backups
+.data/
+/uploads/
+/originals/
+/backups/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.rdb
+*.aof
+*.aof.*
+
+# Python environments, compiled files and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# JavaScript dependencies and generated builds
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+# There is no root Node package; the application lockfile is apps/web/package-lock.json.
+/package-lock.json
+
+# Generated browser runs, evaluation results, media and source bundles
+playwright-report/
+test-results/
+blob-report/
+coverage/
+/artifacts/
+/evals/results/
+
+# Local logs, editor settings and agent state
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+.codex/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

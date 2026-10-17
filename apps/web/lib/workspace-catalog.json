@@ -1,0 +1,163 @@
+{
+  "company": "BrightMart",
+  "seed_version": "2.0",
+  "scenario_clock": "2026-10-17T04:30:00Z",
+  "synthetic": true,
+  "entity_counts": {
+    "Project": 10,
+    "Service": 16,
+    "Team": 8,
+    "Person": 40,
+    "Customer": 10,
+    "Ticket": 60,
+    "Decision": 24,
+    "Commitment": 12
+  },
+  "source_count": 200,
+  "claim_count": 432,
+  "source_counts": {
+    "document": 94,
+    "chat": 21,
+    "ticket": 60,
+    "decision": 24,
+    "directory": 1
+  },
+  "projects": [
+    {
+      "id": "project:easy-checkout",
+      "name": "Easy Checkout",
+      "purpose": "Make it easier to place and pay for an online grocery order.",
+      "question": "What could block Easy Checkout?",
+      "system": "Checkout Service"
+    },
+    {
+      "id": "project:sales-dashboard",
+      "name": "Sales Dashboard",
+      "purpose": "Help store managers understand their sales.",
+      "question": "What could block Sales Dashboard?",
+      "system": "Reporting Service"
+    },
+    {
+      "id": "project:delivery-tracking",
+      "name": "Delivery Tracking",
+      "purpose": "Show shoppers and staff where a delivery is.",
+      "question": "What could block Delivery Tracking?",
+      "system": "Delivery Board"
+    },
+    {
+      "id": "project:quick-refunds",
+      "name": "Quick Refunds",
+      "purpose": "Return money promptly after an approved cancellation.",
+      "question": "What could block Quick Refunds?",
+      "system": "Refund Service"
+    },
+    {
+      "id": "project:stock-alerts",
+      "name": "Stock Alerts",
+      "purpose": "Warn stores before popular items run out.",
+      "question": "What could block Stock Alerts?",
+      "system": "Stock Counter"
+    },
+    {
+      "id": "project:store-pickup",
+      "name": "Store Pickup",
+      "purpose": "Let shoppers collect their order from a store.",
+      "question": "What could block Store Pickup?",
+      "system": "Pickup Scheduler"
+    },
+    {
+      "id": "project:customer-rewards",
+      "name": "Customer Rewards",
+      "purpose": "Give repeat shoppers reward points.",
+      "question": "What could block Customer Rewards?",
+      "system": "Rewards Wallet"
+    },
+    {
+      "id": "project:seller-dashboard",
+      "name": "Seller Dashboard",
+      "purpose": "Help partner stores manage their online business.",
+      "question": "What could block Seller Dashboard?",
+      "system": "Seller Portal"
+    },
+    {
+      "id": "project:help-center",
+      "name": "Help Center",
+      "purpose": "Help shoppers get an answer when something goes wrong.",
+      "question": "What could block Help Center?",
+      "system": "Help Desk"
+    },
+    {
+      "id": "project:fresh-subscriptions",
+      "name": "Fresh Subscriptions",
+      "purpose": "Let shoppers receive a regular grocery box.",
+      "question": "What could block Fresh Subscriptions?",
+      "system": "Subscription Billing"
+    }
+  ],
+  "glossary": [
+    {
+      "name": "Checkout Service",
+      "meaning": "the part of the website where a shopper places an order"
+    },
+    {
+      "name": "Payment Gateway",
+      "meaning": "the connection that asks the bank to accept a payment"
+    },
+    {
+      "name": "Reporting Service",
+      "meaning": "the tool that adds up sales for store managers"
+    },
+    {
+      "name": "Customer Messages",
+      "meaning": "the tool that sends order and delivery messages"
+    },
+    {
+      "name": "Delivery Board",
+      "meaning": "the screen staff use to see where deliveries are"
+    },
+    {
+      "name": "Route Planner",
+      "meaning": "the tool that chooses a delivery route"
+    },
+    {
+      "name": "Refund Service",
+      "meaning": "the tool that returns money after an approved cancellation"
+    },
+    {
+      "name": "Stock Counter",
+      "meaning": "the counter that tracks how many items are available"
+    },
+    {
+      "name": "Product Catalog",
+      "meaning": "the list of products, prices and product details"
+    },
+    {
+      "name": "Rewards Wallet",
+      "meaning": "the balance of a shopper\u2019s reward points"
+    },
+    {
+      "name": "Seller Portal",
+      "meaning": "the workspace used by partner stores"
+    },
+    {
+      "name": "Help Desk",
+      "meaning": "the workspace used to help shoppers"
+    },
+    {
+      "name": "Subscription Billing",
+      "meaning": "the tool that charges repeat grocery subscriptions"
+    },
+    {
+      "name": "Warehouse Updates",
+      "meaning": "the feed that reports packing and stock movements"
+    },
+    {
+      "name": "Pickup Scheduler",
+      "meaning": "the tool that reserves a collection time at a store"
+    },
+    {
+      "name": "Product Search",
+      "meaning": "the tool shoppers use to find products"
+    }
+  ]
+}
