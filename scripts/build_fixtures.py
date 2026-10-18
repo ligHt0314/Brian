@@ -958,7 +958,9 @@ for rec in sources:
             "",
         ]
     )
-(ROOT / "docs/BrightMart-Sourcebook.md").write_text("\n\n".join(handbook) + "\n")
+# Documentation is optional; dataset regeneration must also work without docs/.
+if (ROOT / "docs").is_dir():
+    (ROOT / "docs/BrightMart-Sourcebook.md").write_text("\n\n".join(handbook) + "\n")
 (ROOT / "apps/web/lib/workspace-catalog.json").write_text(
     json.dumps(
         dict(

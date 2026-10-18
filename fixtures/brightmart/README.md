@@ -18,6 +18,6 @@ Regenerate from the repository root:
 python3 scripts/build_fixtures.py
 ```
 
-Regeneration writes the fixture JSON, checksummed manifest, workspace catalog and readable source book. It does not overwrite active graph revisions or reset a running workspace.
+Regeneration writes the fixture JSON, checksummed manifest and workspace catalog. It also writes a readable source book if the optional `docs/` folder exists. It does not overwrite active graph revisions or reset a running workspace.
 
-See [the source book](../../docs/BrightMart-Sourcebook.md), [the dataset guide](../../docs/BrightMart-Demo.md) and [the project README](../../README.md) for the company story and run instructions. Evaluation questions live separately in `evals/questions.jsonl` and are not loaded as company facts.
+See the project README for the [company story](../../README.md#understanding-the-dataset), [architecture](../../README.md#architecture) and [run instructions](../../README.md#quick-start). Evaluation questions live separately in `evals/questions.jsonl` and are not loaded as company facts. Keep this fixtures folder: the application reads its registry at runtime and uses its records for initial loading.
