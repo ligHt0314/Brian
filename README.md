@@ -1,4 +1,4 @@
-# Company Brain
+# Brian
 
 Company Brain connects projects, people, tickets, decisions and customer commitments so you can investigate risks, trace dependencies and act on source-backed findings. The application runs locally with **Next.js**, **FastAPI**, **FalkorDB** and an optional **Gemini** API connection.
 
